@@ -1,4 +1,4 @@
-const calcular = document.getElementById('calcular');
+const calcula = document.getElementById('calcula');
 
 function somar(){
     const n1 = document.getElementById('n1').value;
@@ -13,11 +13,11 @@ function somar(){
     }
 }
 
-calcular.addEventListener('click', somar);
+calcula.addEventListener('click', somar);
 
 document.addEventListener("keypress", function(e) {
     if(e.key === 'Enter') {
-        const botao = document.querySelector("#calcular");
+        const botao = document.querySelector("#calcula");
         botao.click();
     }
 })
