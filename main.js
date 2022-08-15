@@ -5,7 +5,7 @@ function somar(){
     const n2 = document.getElementById('n2').value;
     const resultado = document.getElementById('resultado');
 
-    if(n1 != '' && n2 != '' && n1 != NaN && n2 != NaN){
+    if(n1 != '' || n2 != ''){
         let soma = parseFloat(n1) + parseFloat(n2)
         resultado.textContent = soma;
     } else {
