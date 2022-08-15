@@ -1,0 +1,76 @@
+.container {
+    width: 30rem;
+    padding: 1.6rem 3rem 3rem;
+    border: 1px solid #aaa;
+    background-color: rgb(245, 245, 245);
+    border-radius: 10px;
+    margin: 4rem auto auto;
+}
+
+.titulo-1 {
+    margin-left: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444;
+}
+
+.formularios-agregados {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.formulario {
+    width: 10em;
+    height: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.input-numero {
+    height: 2rem;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: #aaa 1px solid;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.529);
+}
+
+.somatorio {
+    margin: 1em;
+}
+
+.botao-calcular {
+    margin-left: 1rem;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(76, 122, 197);
+    color: #FFF;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.botao-calcular:hover {
+    background-color: rgb(50, 93, 163);
+    transition: 0.3s;
+}
+
+.botao-calcular:active {
+    background-color: rgb(36, 77, 143);
+    transition: 0.3s;
+}
+
+.container-resultado {
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.resultado-texto {
+    margin-right: 1rem;
+}
