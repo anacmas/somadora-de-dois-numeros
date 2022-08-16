@@ -15,9 +15,14 @@ function somar(){
 
 calcula.addEventListener('click', somar);
 
-document.addEventListener("keypress", function(e) {
-    if(e.key === 'Enter') {
-        const botao = document.querySelector("#calcula");
-        botao.click();
-    }
-})
+let evento = document.getElementsByClassName('formulario')
+
+
+for (let i = 0; i < evento.length; i++) {
+    evento[i].addEventListener("keypress", function(e) {
+        if(e.key === 'Enter') {
+            e.preventDefault()
+            somar();
+        }
+    })
+  }
